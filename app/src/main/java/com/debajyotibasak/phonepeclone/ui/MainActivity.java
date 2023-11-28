@@ -1,5 +1,6 @@
 package com.debajyotibasak.phonepeclone.ui;
 
+import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.os.Bundle;
@@ -99,6 +100,8 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             case R.id.Dashboard:
                 Toast.makeText(this, "Dashboard Opened", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(this, dashboard.class);
+                startActivity(intent);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
