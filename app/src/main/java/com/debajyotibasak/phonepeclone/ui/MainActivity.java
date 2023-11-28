@@ -91,11 +91,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.menu_invite:
-                Toast.makeText(this, "Invite and Earn", Toast.LENGTH_SHORT).show();
+            case R.id.AI_assistant:
+                Toast.makeText(this, "Your AI Assitant", Toast.LENGTH_SHORT).show();
                 return true;
             case R.id.menu_notification:
                 Toast.makeText(this, "Notification", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.Dashboard:
+                Toast.makeText(this, "Dashboard Opened", Toast.LENGTH_SHORT).show();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -107,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
 //        switch (item.getItemId()) {
 //            case R.id.AI_assistant:
 ////                AI voice assistant click
-//                Toast.makeText(this, "AI Assistant", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(this, "AI Assistant"~, Toast.LENGTH_SHORT).show();
 //                openAIAssistantScreen();
 //                return true;
 //            case R.id.menu_notification:

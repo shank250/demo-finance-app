@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/menu_invite"
-        android:icon="@drawable/ic_send_white"
+        android:id="@+id/AI_assistant"
+        android:icon="@drawable/voice"
         android:title="@string/title_invite"
         app:showAsAction="always" />
 
@@ -12,6 +12,12 @@
         android:id="@+id/menu_notification"
         android:icon="@drawable/ic_notifications_white"
         android:title="@string/title_notification"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/Dashboard"
+        android:icon="@drawable/dashboard"
+        android:title="@string/title_dashboard"
         app:showAsAction="always" />
 
 </menu>
